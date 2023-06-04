@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\front_end",
+    "\\front_end\\src",
+    "\\front_end\\src\\redux",
+    "\\front_end\\src\\redux\\actions",
+    "\\front_end\\src\\redux\\reducers",
+    "\\front_end\\src\\routes"
+  ],
+  "PreviewInSolutionExplorer": false
+}

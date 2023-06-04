@@ -1,0 +1,346 @@
+body {
+    background-color: snow;
+    font-family: 'Open Sans', sans-serif;
+      text-align: center;
+
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 1rem;
+}
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: purple;
+    
+}
+input {
+    width: 30rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+}
+button[type=submit]:hover {
+    background-color: purple;
+    border-color: wheat;
+}
+
+button[type=submit]:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.task {
+    position: relative;
+    color: #34495e;
+}
+
+    .task.completed {
+        color: green;
+        text-decoration: line-through;
+    }
+.completed-mark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 50%;
+}
+.task.deleted {
+    color: red;
+}
+.deleted {
+    color: red;
+}
+.todos-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todos-title {
+    color: #8c30ff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.empty-message {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button.clear {
+    background-color: #8c30ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+    .button.clear:hover {
+        background-color: #6f1cbf;
+    }
+.add-subtask-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.page-title {
+    color: #8c30ff;
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+.task {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+    .task.completed {
+        text-decoration: line-through;
+        color: #888;
+    }
+
+    .task.deleted {
+        color: red;
+    }
+
+    .task .text {
+        margin-right: 10px;
+    }
+
+    .task .icon {
+        margin-right: 5px;
+    }
+
+    .task .completed-mark {
+        margin-right: 5px;
+        color: green;
+    }
+
+    .task .icon.delete-icon {
+        color: red;
+        margin-right: 5px;
+    }
+
+    .task .icon,
+    .task .completed-mark {
+        font-size: 20px;
+    }
+
+    .task .edit-todo {
+        font-size: 18px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .task button {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+.task-container {
+    display: flex;
+    align-items: center;
+}
+
+.task-content {
+    flex-grow: 1;
+}
+
+.task-icons {
+    display: flex;
+    align-items: center;
+}
+
+    .task-icons .icon {
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+.completed-mark {
+    margin-left: 5px;
+}
+
+
+.subtask-form {
+    display: flex;
+}
+
+.subtask-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button.add-button {
+    background-color: #8c30ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+    .button.add-button:hover {
+        background-color: #6f1cbf;
+    }
+.todo-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.form {
+    display: flex;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-button {
+    background-color: #8c30ff;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    font-size: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+    .add-button:hover {
+        background-color: #6f1cbf;
+    }
+
+.statistics-container {
+    margin-top: 20px;
+}
+.add-subtask-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.subtask-form {
+    display: flex;
+    align-items: center;
+}
+
+.subtask-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-button {
+    background-color: #8c30ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.add-button {
+    background-color: #8c30ff;
+    color: #fff;
+    border: none;
+    padding: 4px 8px; /*  ’€Ì— ÕÃ„ «·“— */
+    font-size: 14px; /*  ’€Ì— ÕÃ„ «·‰’ */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+ .add-button i {
+        margin-right: 3px; /*  ’€Ì— «·„”«›… »Ì‰ «·√ÌﬁÊ‰… Ê«·‰’ */
+    }
+ .add-button:hover {
+        background-color: #6f1cbf;
+    }
+.red-icon {
+    color: red;
+}

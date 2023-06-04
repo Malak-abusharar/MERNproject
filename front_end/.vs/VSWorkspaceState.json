@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "\\src",
+    "\\src\\components",
+    "\\src\\redux\\actions",
+    "\\src\\redux\\reducers"
+  ],
+  "PreviewInSolutionExplorer": false
+}
